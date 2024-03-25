@@ -11,7 +11,7 @@
                     <p class="text-gray-600">Image Unavailable</p>
                 </div>
                 <div v-else>
-                    <img class="rounded-lg mb-4 mx-auto" :src="movie.Poster" :alt="movie.Title">
+                    <img class="rounded-lg mb-4 mt-6 mx-auto" :src="movie.Poster" :alt="movie.Title">
                 </div> 
                 <div class="flex justify-between">
                     <h2 class="text-xl font-bold mb-2">{{ movie.Title }}</h2> 
